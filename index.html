@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS Cipolletti</title>
+    <!-- Libreria para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--Libreria para la fuente-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <!-- Icono de la pagina -->
+    <link rel="shortcut icon" href="./public/assets/icon/logo_its.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <!-- Imagen del logo --> 
+            <img src="./public/assets/icon/logo_its2.png" alt="logoIts">
+            <h1>Instituto Técnico Superior Cipolletti</h1>
+        </div>
+
+        <!-- Boton de menu hamburguesa -->
+        <button id="menu-btn" class="menu-btn">
+            <i class="fas fa-bars"></i>   <!-- Icono de menu -->
+        </button>
+    </header>
+
+    <!--Menu desplegable-->
+    <nav id="side-menu" class="side-menu">
+        <!-- Boton de cierre del menu -->
+        <button id="close-btn" class="close-btn">&times;</button>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos al Instituto Técnico Superior Cipolletti</h2>
+            <p>Desde el 10 de abril de 2017...<br>
+
+            Promovemos la innovación y construcción de habilidades, estableciéndonos como una alternativa de 
+            educación superior de alta calidad. <br>
+
+            La educación técnica superior tiene como MISIÓN la formación de técnicos superiores con habilidades, 
+            competencias y capacidades de alto nivel adecuadas a las demandas sociales, los avances científicos, 
+            tecnológicos y a los requerimientos productivos. <br>
+
+            Nuestro Instituto pretende dar respuesta a la necesidad de personal calificado en open source, ya que el 
+            crecimiento del software libre y de código abierto atrae la atención de empresas y administraciones públicas. 
+            El software libre y de código abierto ofrece, además de las ventajas vinculadas a los costos, 
+            la posibilidad de auditoría y personalización.</p>
+
+            <!-- Boton de ver carreras -->
+             <a href="https://itscipolletti.edu.ar/" target="_blank"><button>Ver carreras</button></a>
+            
+        </section>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer>       
+        <p>© 2024 ITS Cipolletti by Eugenia Mora. Todos los derechos reservados.</p>
+
+        <!-- Redes sociales del instituto -->
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://ar.linkedin.com/"  target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="./public/js/script.js"></script>
+</body>
+</html>
